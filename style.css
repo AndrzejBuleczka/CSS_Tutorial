@@ -2,3 +2,43 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+font-family: arial;
+background-color: #eee;
+}
+
+#wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#main-navigation {
+  background-color: #181818;
+  padding: 10px;
+}
+
+#main-navigation {
+  text-align: right;
+  list-style: none;
+  margin-right: 10px;
+}
+
+#main-navigation li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#main-navigation a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 6px;
+}
+
+#main-navigation a.current {
+  background-color: #8f746c;
+  border-radius: 4px;
+}
